@@ -1,0 +1,35 @@
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border-style: none;
+    height: 100px;
+    font-family: lucida;
+}
+.texto-encima{
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    font-family: lucida;
+    color: #FFFF;
+    font-size: 100px;
+    text-align: center;
+    line-height: 600px;
+}
+img {
+display: block;
+margin: auto;
+}
+header {
+top: 10px;
+text-align: justify;
+font-size: 16px;
+padding: 10px;
+}
+.desordenada li {
+list-style-type: none;
+}
+.desordenada li::before {content: "-" }
+.ordenada li {
+list-style-type: none;
+}
