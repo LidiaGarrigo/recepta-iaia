@@ -30,6 +30,4 @@ padding: 10px;
 list-style-type: none;
 }
 .desordenada li::before {content: "-" }
-.ordenada li {
-list-style-type: none;
-}
+
